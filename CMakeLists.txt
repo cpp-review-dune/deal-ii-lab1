@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project("Lab 1")
 
-find_package(deal.II 9.4.2 REQUIRED)
+find_package(deal.II 9.5.1 REQUIRED)
 deal_ii_initialize_cached_variables()
 
 find_package(GTest)

@@ -1,8 +1,8 @@
 ```console
 $ git clone git@github.com:cpp-review-dune/deal-ii-lab1.git
 $ cd deal-ii-lab1
-$ cmake -S . -B build-debug -DCMAKE_BUILD_TYPE="Debug"
-$ cmake -S . -B build-release -DCMAKE_BUILD_TYPE="Release"
+$ cmake -S . -B build-debug -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_CXX_COMPILER=mpic++
+$ cmake -S . -B build-release -DCMAKE_BUILD_TYPE="Release" -DCMAKE_CXX_COMPILER=mpic++
 $ cmake --build build
 ```
 

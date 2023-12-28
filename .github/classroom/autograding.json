@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "run all tests",
-      "setup": "cmake -S . -B build && cmake --build build",
+      "setup": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=mpic++ && cmake --build build",
       "run": "./build/source/pythagoras",
       "input": "",
       "output": "",
