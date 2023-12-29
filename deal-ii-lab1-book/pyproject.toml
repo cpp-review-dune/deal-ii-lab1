@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "deal-ii-lab1-book"
+version = "0.1.0"
+description = "deal.II Lab 1 Book"
+authors = ["Carlos Aznarán <caznaranl@uni.pe>"]
+license = "GPL2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter-book = "^0.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
