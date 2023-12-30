@@ -4,7 +4,7 @@
 
 TEST(Pythagoras, Norm)
 {
-  dealii::Point<2> x(3, 4); // Punto en R^2 tal que x_1 = 3, x_2=4.
+  dealii::Point<2> x(3, 4); // (x_1 = 3, x_2=4) en R^2.
   ASSERT_EQ(x.norm(), 5);
 }
 
@@ -24,7 +24,7 @@ TEST(Pythagoras, ScalarProduct)
 TEST(Pythagoras, Norm_3D)
 {
   dealii::Point<3> x(3, 4,
-                     0); // Punto en R^3 tal que x_1 = 3, x_2=4, x_3=0.
+                     0); // (x_1 = 3, x_2=4, x_3=0) en R^3
   ASSERT_EQ(x.norm(), 5);
 }
 
