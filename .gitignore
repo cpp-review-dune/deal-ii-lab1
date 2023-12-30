@@ -2,3 +2,6 @@ build*
 _build
 *.lock
 *.ipynb_checkpoints
+*.eps
+*.vtk
+*.vtu
