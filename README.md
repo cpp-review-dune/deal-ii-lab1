@@ -1,3 +1,5 @@
+## [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#/https://github.com/cpp-review-dune/deal-ii-lab1)
+
 ```console
 $ git clone git@github.com:cpp-review-dune/deal-ii-lab1.git
 $ cd deal-ii-lab1
