@@ -19,3 +19,9 @@ cmake -S . \
   -Wno-dev
 
 cmake --build build --parallel $nproc
+
+# cmake -S /usr/share/deal-ii/examples/step-62 \
+#   -B build-62 \
+#   -Wno-dev
+
+# cmake --build build-62 --parallel $nproc
