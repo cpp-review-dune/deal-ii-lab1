@@ -22,4 +22,3 @@ for cell in triangulation.active_cells():
             cell.refine_flag = "isotropic"
 
 triangulation.execute_coarsening_and_refinement()
-# dealii.write(triangulation, "save.svg")
